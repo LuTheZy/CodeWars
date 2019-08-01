@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using CodeWars.Isograms;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
 
 namespace CodeWars.Tests
 {
-    [TestClass]
+    [TestFixture]
     public class IsogramTests
     {
         private static IEnumerable<TestCaseData> TestCases
@@ -24,10 +22,10 @@ namespace CodeWars.Tests
             }
         }
 
-        [TestMethod, TestCaseSource("TestCases")]
-        public bool Test(string word)
+        [Test, TestCaseSource("TestCases")]
+        public void Test(string word)
         {
-            return Isogram.IsIsogram(word);
+            Isogram.IsIsogram(word);
         }
     }
 }
