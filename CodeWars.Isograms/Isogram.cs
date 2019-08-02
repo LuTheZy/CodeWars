@@ -1,31 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 
-namespace CodeWars.Isograms
+public class Isogram
 {
-    public class Isogram
+    public static bool IsIsogram(string str)
     {
-        public static bool IsIsogram(string str)
+        if (str == string.Empty)
         {
-            List<char> charList = new List<char>();
-            bool isIsogram = false;
-            foreach (var item in str.ToCharArray())
-            {
-                if (!charList.Contains(item))
-                {
-                    charList.Add(item);
-                    isIsogram = true;
-                }
-                else
-                {
-                    isIsogram = false;
-                    break;
-                }
-            }
-            return isIsogram;
+            return true;
         }
+        return str.Where(char.IsLetter)
+              .GroupBy(char.ToLower)
+              .All(g => g.Count() == 1);
     }
 }
