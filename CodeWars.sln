@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars.Isograms", "CodeWa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars.Tests", "CodeWars.Tests\CodeWars.Tests.csproj", "{33D39A23-D0F3-42C6-A212-FFD8C73E49F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars.JaggedArrays", "CodeWars.JaggedArrays\CodeWars.JaggedArrays.csproj", "{D0206C42-E57E-4D18-9C5A-FB6DD19BA838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars.CenturyCalculator", "CodeWars.CenturyCalculator\CodeWars.CenturyCalculator.csproj", "{C07B738C-EE19-462D-805E-B7E403FC3FEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{33D39A23-D0F3-42C6-A212-FFD8C73E49F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33D39A23-D0F3-42C6-A212-FFD8C73E49F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33D39A23-D0F3-42C6-A212-FFD8C73E49F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0206C42-E57E-4D18-9C5A-FB6DD19BA838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0206C42-E57E-4D18-9C5A-FB6DD19BA838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0206C42-E57E-4D18-9C5A-FB6DD19BA838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0206C42-E57E-4D18-9C5A-FB6DD19BA838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C07B738C-EE19-462D-805E-B7E403FC3FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07B738C-EE19-462D-805E-B7E403FC3FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07B738C-EE19-462D-805E-B7E403FC3FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C07B738C-EE19-462D-805E-B7E403FC3FEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
