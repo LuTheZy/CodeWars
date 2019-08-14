@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AC1770CD-DB67-4504-A38C-4ADFA44D1FD9}</ProjectGuid>
+    <ProjectGuid>{505E85C6-2C23-4215-B0A3-E8F14F5227C0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CodeWars</RootNamespace>
-    <AssemblyName>CodeWars</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>CodeWars.BusinessLayer</RootNamespace>
+    <AssemblyName>CodeWars.BusinessLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -35,8 +34,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
-    <Reference Include="System.DirectoryServices.AccountManagement" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,21 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="ConfigurationClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CodeWars.BusinessLayer\CodeWars.BusinessLayer.csproj">
-      <Project>{505e85c6-2c23-4215-b0a3-e8f14f5227c0}</Project>
-      <Name>CodeWars.BusinessLayer</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CodeWars.JaggedArrays\CodeWars.JaggedArrays.csproj">
-      <Project>{d0206c42-e57e-4d18-9c5a-fb6dd19ba838}</Project>
-      <Name>CodeWars.JaggedArrays</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

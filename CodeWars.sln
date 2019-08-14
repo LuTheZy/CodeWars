@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars.JaggedArrays", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars.CenturyCalculator", "CodeWars.CenturyCalculator\CodeWars.CenturyCalculator.csproj", "{C07B738C-EE19-462D-805E-B7E403FC3FEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars.BusinessLayer", "CodeWars.BusinessLayer\CodeWars.BusinessLayer.csproj", "{505E85C6-2C23-4215-B0A3-E8F14F5227C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C07B738C-EE19-462D-805E-B7E403FC3FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C07B738C-EE19-462D-805E-B7E403FC3FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C07B738C-EE19-462D-805E-B7E403FC3FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{505E85C6-2C23-4215-B0A3-E8F14F5227C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505E85C6-2C23-4215-B0A3-E8F14F5227C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505E85C6-2C23-4215-B0A3-E8F14F5227C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505E85C6-2C23-4215-B0A3-E8F14F5227C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
